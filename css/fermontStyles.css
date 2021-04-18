@@ -51,8 +51,25 @@ body {
     text-transform: uppercase;
 }
 
+.dos {
+    text-transform: lowercase;
+    letter-spacing: 0.2rem;
+}
+
+.tres {
+    font-weight: 400;
+    margin-top: 0.5em;
+    letter-spacing: 0.1em;
+}
+
 @media (min-width: 768px) {
     body {
       font-size: 30px;
+    }
+    .dos {
+        letter-spacing: 0.4rem;
+    }
+    .tres {
+        letter-spacing: 0.1em;
     }
   }

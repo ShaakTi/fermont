@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fermont – Productos Fermentados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dscountdown.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="text-box">
+        <div class="mainLogo"><img src="Fermont-Logo-Website.png" alt="Fermont Logo"></div>
+        <header class="header">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Muy Pronto</span>
+                <span class="heading-primary-sub">Este será el hogar de</span>
+                <span class="heading-primary-third">Las bebidas sin culpa</span>
+            </h1>
+            <div class="countdown"></div>
+        </header>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.countdown').dsCountDown({
+                endDate:new Date("May 12, 2021 23:59:00")
+            })
+        })
+    </script>
+    <script type="text/javascript" src="dscountdown.js"></script>
+</body>
+</html> 

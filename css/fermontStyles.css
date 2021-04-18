@@ -1,0 +1,58 @@
+/*
+COLORS:
+
+Fermont red: #98003C
+Fermont KCHred: #C65C1D
+Fermont green: #568456
+Fermont light green: #AAD2A0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: gray;
+}
+
+.girly {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(153, 0, 61, 0.8),
+        rgba(200, 92, 30, 0.7)),
+         url(../images/fermontHero1.png);
+    background-size: cover;
+    background-position: top;
+
+}
+
+.fmLogo {
+    display: block;
+    text-align: center;
+    background-image: url(../images/smallFondo.png);
+    background-repeat: repeat-x;
+}
+
+.fmLogoBig {
+    text-align: center;
+    background-image: url(../images/fondo.png);
+    background-repeat: repeat-x;
+}
+
+.mainText {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    body {
+      font-size: 30px;
+    }
+  }

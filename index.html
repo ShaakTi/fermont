@@ -22,7 +22,17 @@
             <p class="dos">este ser&aacute; el hogar de</p>
             <p class="tres">las bebidas sin culpa</p>
             <p class="cuatro">Abriremos en:</p>
+            <div class="countdown"></div>
         </div>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.countdown').dsCountDown({
+                endDate:new Date("May 12, 2021 23:59:00")
+            })
+        })
+    </script>
+    <script type="text/javascript" src="js/dscountdown.js"></script>
 </body>
 </html>

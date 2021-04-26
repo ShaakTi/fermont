@@ -11,12 +11,12 @@ Fermont light green: #AAD2A0
     color: white;
     text-align: center;
     text-transform: lowercase;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .numeros {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
 }
 
@@ -82,6 +82,15 @@ body {
     letter-spacing: 0.2em;
 }
 
+.social {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.social a {
+    color: white;
+}
+
 @media (min-width: 768px) {
     body {
       font-size: 30px;
@@ -94,5 +103,11 @@ body {
     }
     .cuatro {
         margin-top: 6rem;
+    }
+    .relojTitulos {
+        font-size: 1.5rem;
+    }
+    .numeros {
+        font-size: 4rem;
     }
   }

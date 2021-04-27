@@ -42,7 +42,7 @@ body {
          url(../images/fermontHero1.jpg);
     background-size: cover;
     background-position: top;
-
+    background-attachment: fixed;
 }
 
 .fmLogo {
